@@ -136,7 +136,7 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    'https://motorcycle-app.vercel.app',
+    'https://advriderfleamarketclassifiedinterface.vercel.app/',
 ]
 if os.getcwd() == "/app":
     DEBUG = False
