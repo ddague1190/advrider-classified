@@ -139,7 +139,7 @@ CORS_ALLOWED_ORIGINS = [
     'https://advriderfleamarketclassifiedinterface.vercel.app',
 ]
 if os.getcwd() == "/app":
-    DEBUG = False
+#     DEBUG = False
 
 # Configure Django App for Heroku.
 import django_heroku
