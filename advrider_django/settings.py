@@ -17,7 +17,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "http://localhost:3000",
-    'https://motorcycle-app.vercel.app'
+    'https://advriderfleamarketclassifiedinterface.vercel.app'
 ]
 
 INSTALLED_APPS = [
@@ -136,7 +136,7 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    'https://advriderfleamarketclassifiedinterface.vercel.app/',
+    'https://advriderfleamarketclassifiedinterface.vercel.app',
 ]
 if os.getcwd() == "/app":
     DEBUG = False
